@@ -1,0 +1,25 @@
+{
+    "name": "invalid-data-xlsx",
+    "resources": [
+        {
+            "name": "data",
+            "path": "data.xlsx",
+            "profile": "tabular-data-resource",
+            "dialect": {
+                "delimiter": ","
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

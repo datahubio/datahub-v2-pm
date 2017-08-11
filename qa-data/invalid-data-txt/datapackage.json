@@ -1,0 +1,25 @@
+{
+    "name": "invalid-data-txt",
+    "resources": [
+        {
+            "name": "data",
+            "path": "data.txt",
+            "profile": "tabular-data-resource",
+            "dialect": {
+                "delimiter": ","
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

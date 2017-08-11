@@ -1,0 +1,25 @@
+{
+    "name": "invalid-metadata",
+    "resources": [
+        {
+            "name": "DaTa",
+            "profile": "tabular-data-resource",
+            "path": "data.csv",
+            "dialect": {
+                "quoteChar": "|"
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}

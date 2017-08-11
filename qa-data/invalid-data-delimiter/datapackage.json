@@ -1,0 +1,25 @@
+{
+    "name": "invalid-data-delimiter",
+    "resources": [
+        {
+            "name": "data",
+            "path": "data.csv",
+            "profile": "tabular-data-resource",
+            "dialect": {
+                "delimiter": ":"
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
