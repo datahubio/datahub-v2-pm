@@ -1,0 +1,26 @@
+{
+    "name": "invalid-data-encoding",
+    "resources": [
+        {
+            "name": "data",
+            "path": "data.csv",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "dialect": {
+                "delimiter": ","
+            },
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "number"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
